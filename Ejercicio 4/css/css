@@ -1,0 +1,27 @@
+div#T1 {
+    background-color: grey;
+}
+
+div#T2 {
+    background-color: grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2#T1 {
+    color: blue;
+}
+
+h2#T2 {
+    color: green;
+}
+
+div#datos {
+border: 3px solid black;
+}
+
+div#estudios {
+    border: 3px solid black;
+}
