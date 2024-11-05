@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <head>
+        <title>
+            Ejercicio 12
+        </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend> Datos personales</legend>
+
+                <label for="input_nombre">Nombre: </label>
+                <input  type="text" id="i_nombre" name="input_nombre" placeholder="Su hombre" required>
+
+                <br>
+
+                <label for="input_email">Correo eléctronico: </label>
+                <input type="email" id="i_email" name="input_email" placeholder="nombre@servidor.com" required>
+            </fieldset> 
+
+            <br>
+
+            <fieldset>
+                <legend> Datos del proyecto</legend>
+                <label>Breve descripción del proyecto</label><br>
+                <textarea id="i_intereses" name="intereses"></textarea>
+
+                <br>
+                <label>En planteamiento<input type="checkbox" name="check_planteamiento" value="planteamiento"></label>
+                <label>En planificación<input type="checkbox" name="check_planificacion" value="planificacion"></label>
+                <label>En ejecución<input type="checkbox" name="check_ejecucion" value="ejecucion"></label>
+                <label>Ya finalizo<input type="checkbox" name="check_finalizo" value="finalizo"></label>
+            </fieldset>
+        </form>
+    </body>
+</html>
